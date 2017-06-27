@@ -2,7 +2,7 @@
 using System.Drawing;
 
 ///FULVIO
-namespace Msn
+namespace VTools
 {
     public partial class Notifier
     {

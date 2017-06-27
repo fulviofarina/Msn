@@ -7,8 +7,8 @@
     <ProjectGuid>{6C0291F8-1CAC-40E4-B628-556D718D9B22}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Msn</RootNamespace>
-    <AssemblyName>Msn</AssemblyName>
+    <RootNamespace>VTools</RootNamespace>
+    <AssemblyName>VTools.Msn</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -60,6 +60,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IPop.cs" />
     <Compile Include="Pop.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -82,6 +83,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
